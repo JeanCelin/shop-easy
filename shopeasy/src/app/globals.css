@@ -1,0 +1,18 @@
+:root {
+  --color1: #1e3a8a;
+  /* primaira */
+  --color2: #2563eb;
+  /* secundaria */
+  --color3: #f3f4f6;
+  /* fundo */
+  --color4: #eab308;
+  /* destaque */
+  --color5: #000000;
+  /* preto */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

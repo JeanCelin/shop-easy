@@ -1,0 +1,21 @@
+.navbar {
+  background-color: var(--color1);
+  font-family: var(--font-roboto);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+.navbar__list {
+  display: flex;
+  gap: 20px;
+
+  list-style: none;
+}
+.navbar__list li a {
+  color: var(--color4);
+  text-decoration: none;
+}
+.navbar__list li a:hover {
+  color: var(--color3);
+  text-decoration: none;
+}
