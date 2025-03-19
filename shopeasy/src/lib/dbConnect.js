@@ -1,10 +1,11 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
-dotenv.config();
+require("dotenv").config();
 
 const MONGO_URI = process.env.MONGO_URI;
 
+console.log(process.env.MONGO_URI)
 if (!MONGO_URI) {
   throw new Error('Defina a variável de ambiente MONGO_URI');
 }
