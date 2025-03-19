@@ -1,0 +1,12 @@
+.layoutAdm {
+  
+}
+.layoutAdm__main {
+  min-height: 100vh;
+}
+
+.layoutAdm__footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
