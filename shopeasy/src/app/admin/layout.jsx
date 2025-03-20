@@ -10,9 +10,9 @@ const AdminLayout = ({ children }) => {
         <AdmNavbar />
       </header>
       <main className={styles.layoutAdm__main}>{children}</main>
-      <secton className={styles.layoutAdm__footer}>
+      <section className={styles.layoutAdm__footer}>
         <AdmFooter />
-      </secton>
+      </section>
     </div>
   );
 };
